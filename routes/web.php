@@ -17,9 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'welcome')->name('welcome');
 
 Auth::routes([
-// 'register' => false, 
-// 'reset' => false,
-// 'verify' => false,
+'register' => false, 
+'reset' => false,
+'verify' => false,
 ]);
 
 Route::get('/admin', [App\Http\Controllers\AdminController::class,'index'])->name('admin');

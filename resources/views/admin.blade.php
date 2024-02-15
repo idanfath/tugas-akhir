@@ -61,8 +61,6 @@
                         </tbody>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
@@ -79,28 +77,10 @@
         })
     }
 
-    function confirmdelete() {
-        swal({
-                title: "Are you sure?",
-                text: "Once deleted, you will not be able to recover this file!",
-                icon: "warning",
-                buttons: true,
-                dangerMode: true,
-            })
-            .then((willDelete) => {
-                if (willDelete) {
-                    deleteCustomer(event)
-                } else {
-
-                }
-            });
-    }
-
     function deleteCustomer(event) {
         event.preventDefault();
         const id = event.target.getAttribute("value");
         const perPage = document.getElementById("perpageNum").value;
-
 
         swal({
                 title: "Yakin?",

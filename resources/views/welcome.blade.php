@@ -11,6 +11,5 @@
         <h2><a href="{{ route('login') }}">login</a></h2>
         <div id="appvue"></div>
         <a href="{{ route('admin') }}">Go to Admin Panel</a>
-        
     </body>
 </html>
