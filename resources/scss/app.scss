@@ -1,3 +1,55 @@
-.test2 {
-    @apply text-red-500 font-bold
+
+
+.bg-dark {
+    background-color: #828282;
+}
+
+.text-icon {
+    @apply text-5xl md:text-6xl xl:text-5xl;
+}
+
+.header {
+    background: linear-gradient(to bottom, #fff2fe 0%, #ffffff 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.defaulthoverable {
+    @apply hover:drop-shadow-xl transition-all;
+}
+
+.contactus {
+    background-color: rgb(220, 118, 141);
+}
+.mapbutton {
+    color: rgb(201, 70, 120);
+    border-width: 2px;
+    border-color: rgb(225, 98, 138);
+    background-color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    margin-top: 60px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.heightovrd{
+    max-height: 75px;
 }

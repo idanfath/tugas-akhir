@@ -29,7 +29,7 @@
                                 <label for="file" class="mb-1">Foto</label>
                                 <br>
                                 <input type="file" class="form-control" id="file"
-                                    accept="image/png, image/gif, image/jpeg" name="image" required>
+                                    accept="image/png, image/gif, image/jpeg, image/webp" name="image" required>
                             </div>
                             <div class="col-auto mt-3 d-flex gap-2" style="justify-self:center;">
                                 <a class="btn btn-primary" href="/admin" {{-- onclick="window.history.go(-1); return false; --}}">Kembali</a>

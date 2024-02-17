@@ -23,7 +23,7 @@ class AdminAddController extends Controller
         $this->validate($request, [
             'name' => 'required|string|max:255',
             'type' => 'required|in:carousel,gallery,banner',
-            'image' => 'required|image|mimes:jpeg,png,jpg',
+            'image' => 'required|image|mimes:jpeg,png,jpg,webp',
         ]);
 
         $image = $request->file('image');
