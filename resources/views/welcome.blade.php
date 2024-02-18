@@ -2,21 +2,28 @@
 <html>
 
 <head>
-    <title>Appraisal</title>
+    <title>Schoene Florist</title>
     @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.js'])
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
+
+    <link rel="icon" type="image/x-icon" href="{{ asset('icon/favicon.ico') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/icon/apple-touch-icon.png') }}">
+    <link rel="icon" sizes="32x32" href="{{ asset('icon/favicon-32x32.png') }}">
+    <link rel="icon" sizes="16x16" href="{{ asset('icon/favicon-16x16.png') }}">
+
 </head>
 
 <body>
 
-    <div class="debug p-5 z-10 text-white fixed sm:bg-red-600 md:bg-orange-600 lg:bg-yellow-600 xl:bg-green-600 2xl:bg-blue-600" style="bottom: 50%">
+    {{-- <div class="debug p-5 z-10 text-white fixed sm:bg-red-600 md:bg-orange-600 lg:bg-yellow-600 xl:bg-green-600 2xl:bg-blue-600" style="bottom: 50%">
     STILL IN DEV
-    </div>
+    </div> --}}
     <header1 id="home" class="bg-white flex justify-center header">
         <div></div>
         <div class="flex flex-col items-center pt-5">
             <div class="flex flex-row">
+                {{-- <img src="{{ URL::to('/icon/icon.png')}}" class=" h-36 lg:h-24"> --}}
                 <img src="{{ URL::to('/icon/icon.png')}}" class=" h-36 lg:h-24">
             </div>
         </div>
