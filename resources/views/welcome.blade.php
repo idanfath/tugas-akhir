@@ -10,7 +10,7 @@
 
 <body>
 
-    <div class="debug p-5 text-white fixed sm:bg-red-600 md:bg-orange-600 lg:bg-yellow-600 xl:bg-green-600 2xl:bg-blue-600" style="bottom: 50%">
+    <div class="debug p-5 z-10 text-white fixed sm:bg-red-600 md:bg-orange-600 lg:bg-yellow-600 xl:bg-green-600 2xl:bg-blue-600" style="bottom: 50%">
     STILL IN DEV
     </div>
     <header1 id="home" class="bg-white flex justify-center header">
